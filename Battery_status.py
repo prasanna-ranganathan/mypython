@@ -17,7 +17,7 @@ def Notification(title,message):
 
 def Main():
   while True:
-    if str(status()) == '99':
+    if str(status()) == '100':
       Notification("Battery Full","100%  Unplug the charger")
     time.sleep(15)
 
